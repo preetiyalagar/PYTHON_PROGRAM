@@ -1,0 +1,11 @@
+
+Code:p1
+Name:laptop
+Price:30000
+Qty:1
+Total:30000
+Code:p2
+Name:phone
+Price:2000
+Qty:2
+Total:4000

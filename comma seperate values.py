@@ -1,0 +1,11 @@
+#File handling with csv (comma seperate values)
+ec=input('Enter emp code:')
+en=input('Enter emp name:')
+salary=int(input('Enter Salary:'))
+dp=input('Enter dept name:')
+
+f1=open('emp.CSV', 'w')
+f1.write('Code'+","+'Name'+","+'Salary'+","+'Department'+"\n")
+f1.write(ec+","+en+","+str(salary)+","+dp+"\n")
+f1.close()
+print('Data stored into file')
