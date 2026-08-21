@@ -1,0 +1,1 @@
+print("AI Irrigation Hackathon Project STarted!")
